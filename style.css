@@ -1,0 +1,104 @@
+.secLeft{
+    margin-top: 250px;
+}
+.select{
+    font-size: 1000;
+    font-size: 90px;
+    color: rgb(0, 18, 33);
+    margin-bottom: 50px;
+}
+.logoo{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+}
+.back{
+    background-color: rgb(223, 223, 223);
+}
+.price{
+    color: red;
+    font-size: 15px;
+}
+.product{
+    font-weight: bold;
+    font-size: 20px;
+}
+.hvr-SweepToRight {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: .75em;
+    border: 1px rgb(255, 0, 0) solid;
+    background-color: red;
+    background: linear-gradient(to right, rgb(255, 0, 0), #eee);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 1s 0s;
+  }
+.hover{
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.hover:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.hvr-SweepToRight:hover {
+    background-size: 100% 100%;
+  }
+
+.sec3{
+    padding: 100px;
+    text-align: center;
+    margin:auto;
+    width: 90%;
+}
+.shop22{
+    position: relative;
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.add{
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.854);
+    width: 100%;
+    height: 50px;
+    transition: 1s ease;
+}
+.favorite{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 1s ease;
+}
+.favorite:hover{
+    opacity: 1;
+}
+.imaage{
+    border-top: 5px solid red !important;
+}
+.add:hover{
+    opacity: 1;
+}
+.photos{
+    width: 100%;
+    margin-top: 5% ;
+}
+.right{
+    position: absolute;
+    right: 10%;
+}
+.lastimg{
+    transform: scale(1);
+    transition: transform 0.5s ease;   
+}
+.lastimg:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
